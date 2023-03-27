@@ -11,6 +11,7 @@ export const fetchImages = async (inputValue, pageNr) => {
       }
       return await response.json();
     })
+    
     .catch(error => {
       console.error(error);
     });
